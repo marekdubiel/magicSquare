@@ -8,7 +8,7 @@ public class Main {
 
         while(square.hasMoreCombinations()) {
             square.iterate();
-            if (square.checkCombination()) {
+            if (square.isMagicSquare()) {
                 console.success(square.getNumbers());
                 writer.writeCombinantion(square.getNumbers());
             }

@@ -16,7 +16,7 @@ public class Square {
         }
     }
 
-    boolean checkCombination(){
+    boolean isMagicSquare(){
         int sum;
 
         sum = numbers[0]+numbers[1]+numbers[2];
